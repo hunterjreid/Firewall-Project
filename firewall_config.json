@@ -1,0 +1,26 @@
+{
+    "allowed_ips": [
+        "192.168.1.1",
+        "192.168.1.2"
+    ],
+    "blocked_ips": [
+        "10.0.0.1",
+        "10.0.0.2"
+    ],
+    "allowed_ports": [
+        80,
+        443,
+        22,
+        53
+    ],
+    "blocked_ports": [
+        23,
+        445,
+        139
+    ],
+    "protocol_rules": {
+        "TCP": true,
+        "UDP": true,
+        "ICMP": true
+    }
+} 
